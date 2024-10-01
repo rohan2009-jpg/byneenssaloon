@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>By Neens Saloon - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-gray-900 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold">By Neens Saloon</a>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="bg-no-repeat bg-cover bg-center py-20" style="background-image: url(./images/hero-image.jpg);">
+        <div class="container mx-auto text-center text-white">
+            <h1 class="text-4xl font-bold mb-4">Welcome to By Neens Saloon</h1>
+            <p class="text-xl mb-8">Discover the beauty within you.</p>
+            <a href="#services" class="bg-pink-500 text-white px-6 py-3 rounded-full">Our Services</a>
+        </div>
+    </section>
+
+    <section id="services" class="py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-8">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded shadow">
+                    <img src="./images/service1.jpg" alt="Service 1" class="mb-4 w-full">
+                    <h3 class="text-xl font-bold mb-2">Facial Treatment</h3>
+                    <p>Revitalize your skin with our luxurious facial treatments.</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow">
+                    <img src="./images/service2.jpg" alt="Service 2" class="mb-4 w-full">
+                    <h3 class="text-xl font-bold mb-2">Hair Styling</h3>
+                    <p>Get the perfect hairstyle for any occasion with our expert stylists.</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow">
+                    <img src="./images/service3.jpg" alt="Service 3" class="mb-4 w-full">
+                    <h3 class="text-xl font-bold mb-2">Manicure & Pedicure</h3>
+                    <p>Indulge in our relaxing manicure and pedicure services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="bg-gray-100 py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-8">About Us</h2>
+            <p class="text-xl mb-8">At By Neens Saloon, we are dedicated to providing exceptional beauty services to enhance your natural elegance. Our team of experienced professionals uses top-quality products to deliver personalized treatments tailored to your unique needs and preferences.</p>
+            <a href="#contact" class="bg-pink-500 text-white px-6 py-3 rounded-full">Contact Us</a>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-8">Contact Us</h2>
+            <p class="text-xl mb-8">Get in touch with us for more information or to schedule an appointment.</p>
+            <p class="text-xl mb-2">House#12 Cross Road Block L, New City Phase 2 Wah Cantt, Wah, Pakistan</p>
+            <p class="text-xl mb-2">Phone: 0335-5269854</p>
+            <p class="text-xl mb-2">Email: info@byneensaloon.com</p>
+            <div class="mt-8">
+                <iframe src="https://maps.google.com/maps?q=33.738417,72.720472&z=15&output=embed" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2023 By Neens Saloon. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
